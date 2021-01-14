@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(253, 246, 224);
+    width: 1024px;
+}
+
+/* .grid {
+    display: grid;
+    grid-template: 80px 1fr 1fr 1fr 1fr 1fr / repeat(12,);
+} */
+
+.navbar {
+    font-family: 'Fraunces', serif;
+    position: fixed;
+	top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+    height: 80px; 
+    z-index: 10;
+    background-color: rgb(253, 246, 224);
+}
+
+.nav-buttons {
+    float: right;
+	position: relative;
+	right: 20px;
+}
+
+nav li {
+    display: inline-block;
+    width: 80px;
+    line-height: 2.5;
+}
+
+nav h1 {
+    color: rgb(34, 82, 6);
+    float: left;
+	position: relative;
+	left: 20px;
+}
+
+nav a {
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+}
+
+nav a:hover {
+     color: rgb(34, 82, 6);
+}
+
+.grid {
+    display: grid;
+    position: relative;
+    top: 80px
+    grid-template: ;
+}
